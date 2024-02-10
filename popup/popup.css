@@ -57,6 +57,11 @@ button#populateTagsButton:hover {
     font-size: 1.3em;
 }
 
+button#populateTagsButton:active {
+    background-color: #3e8e41;; /* Change background color when clicked */
+    color: #fff; /* Change text color when clicked */
+}
+
 select{
     font-family: 'Open Sans', sans-serif; /* Use your preferred font */
     font-size: 12px; /* Adjust the font size as needed */
