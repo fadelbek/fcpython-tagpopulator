@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kings League Tag Popultaor</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Open+Sans:ital,wght@1,300;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Mitr:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="popup.css">
+  <script src="popup.js"></script>
+</head>
+
+<body>
+  
+  <div class="header-container">
+    <img src="\images\icon4839.png" alt="Kings League Logo"/>
+    <h1>KINGS LEAGUE Event Tag Helper</h1>
+  </div>
+  <hr>
+
+  <label for="competition" class="dropdownlabel">Competición:</label>
+  
+  <select id="competition">
+    <option value="kings">Kings League</option>
+    <option value="queens">Queens League</option>
+    </select>
+
+  <label for="temporada" class="dropdownlabel">Temporada:</label>
+  <select id="temporada">
+    <!-- Populate this with your away team names -->
+    <option value="kingsleague-split12023">Kings League - Split 1 2023</option>
+    <option value="kingsleague-split22023">Kings League - Split 2 2023</option>
+    <option value="kingsleague-split12024">Kings League - Split 1 2024</option>
+    <option value="kingdomcup2023">Kingdom Cup 2023</option>
+    <option value="kingscup2023">Kings Cup 2023</option>
+  </select>
+
+  <label for="homeTeam" class="dropdownlabel">Equipo local:</label>
+  <select id="homeTeam">
+      <!-- Populate this with your home team names -->
+      <option value="1kfc">1K FC</option>
+      <option value="jijantesfc">Jijantes FC</option>
+      <option value="rayodebarcelona">Rayo de Barcelona</option>
+      <option value="xbuyerteam">xBuyer Team</option>
+      <option value="aniquiladoresfc">Aniquiladores FC</option>
+      <option value="elbarrio">El Barrio</option>
+      <option value="kunisports">Kunisports</option>
+      <option value="lostroncosfc">Los Troncos FC</option>
+      <option value="piofc">PIO FC</option>
+      <option value="porcinosfc">Porcinos FC</option>
+      <option value="saiyansfc">Saiyans FC</option>
+      <option value="ultimatemostoles">Ultimate Mostoles</option>
+      <!-- Add more options as needed -->
+  </select>
+        
+  <label for="awayTeam" class="dropdownlabel">Equipo visitante:</label>
+  <select id="awayTeam">
+      <!-- Populate this with your away team names -->
+      <option value="1kfc">1K FC</option>
+      <option value="jijantesfc">Jijantes FC</option>
+      <option value="rayodebarcelona">Rayo de Barcelona</option>
+      <option value="xbuyerteam">xBuyer Team</option>
+      <option value="aniquiladoresfc">Aniquiladores FC</option>
+      <option value="elbarrio">El Barrio</option>
+      <option value="kunisports">Kunisports</option>
+      <option value="lostroncosfc">Los Troncos FC</option>
+      <option value="piofc">PIO FC</option>
+      <option value="porcinosfc">Porcinos FC</option>
+      <option value="saiyansfc">Saiyans FC</option>
+      <option value="ultimatemostoles">Ultimate Mostoles</option>
+      <!-- Add more options as needed -->
+  </select>
+
+  <label for="recogida" class="dropdownlabel">Tipo de recogida:</label>
+  <select id="recogida">
+    <option value="defensa">Defensa-Regate</option>
+    <option value="pases">Pases</option>
+  </select>
+  
+  <button id="populateTagsButton">Cambiar Tags</button>
+
+  <hr id="bottomline">
+  
+  <footer>
+    <p id="creditfooter">Developed by Fadi El Bekkouri</p>
+    <a href="https://github.com/fadelbek" target="_blank" class="github-logo">
+      <img src="\images\github.png" alt="GitHub" id="github-logo-img">
+    </a>
+  </footer>
+
+</body>
+
+</html>
