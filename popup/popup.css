@@ -124,3 +124,7 @@ transform: scale(1.2); /* Increase size on hover */
     background-color: black;
     border-color: black;
 }
+
+#kingslogo{
+	height: 48px;
+}
