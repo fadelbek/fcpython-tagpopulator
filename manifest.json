@@ -1,0 +1,37 @@
+{
+    "manifest_version": 3,
+    "name": "Kings League Event Tag Helper",
+    "version": "1.0",
+    "author": "Fadi El Bekkouri",
+    "description": "Personalizacion de tags para FCPython",
+
+    "background": {
+      "service_worker": "background.js"
+    },
+    
+    "content_scripts": [
+        {
+          "matches": [
+            "<all_urls>"
+           ],
+
+          "js": [
+            "scripts/content.js"
+          ]
+        }
+      ],
+
+    "icons": {
+        "16": "images/icon.png",
+        "48": "images/icon48.png",
+        "128": "images/icon128.png"
+    },
+
+    "permissions": ["activeTab","storage"],
+
+    "action": {
+        "default_popup": "popup/popup.html"
+    }
+
+}
+  
